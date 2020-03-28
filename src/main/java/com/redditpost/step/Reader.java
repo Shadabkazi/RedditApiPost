@@ -22,7 +22,12 @@ public class Reader implements ItemReader<String> {
 	public String read() throws Exception, UnexpectedInputException,
 			ParseException, NonTransientResourceException {
 
-		URL feedSource = new URL("https://www.theverge.com/apple/rss/index.xml");
+		/*
+		 * The Verge RSS url : https://www.theverge.com/apple/rss/index.xml
+		 * Forbes India RSS url : https://www.forbesindia.com/rssfeeds/rss_mostread.xml
+		 */
+		
+		URL feedSource = new URL("https://www.theverge.com/rss/google/index.xml");
 		SyndFeedInput input = new SyndFeedInput();
 		//reads rss feed
 		SyndFeed feed = input.build(new XmlReader(feedSource));
