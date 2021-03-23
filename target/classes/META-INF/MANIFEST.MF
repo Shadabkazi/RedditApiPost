@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: RedditAutoPost
+Implementation-Version: 0.0.1
+Built-By: Shadab
+Implementation-Vendor-Id: com.redditpost
+Build-Jdk: 1.8.0_162
+Implementation-URL: http://projects.spring.io/spring-boot/RedditAutoPo
+ st/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
